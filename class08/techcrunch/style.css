@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-direction: row;
+    font-size: 125%;
+
+}
+
+.section-break {
+    border-bottom: 3px solid lightgrey;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-grow: 1;
+    padding: 1rem;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    position: fixed;
+}
+
+.brand-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+nav ul {
+    margin: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    padding: 2rem;
+    margin-right: 15%;
+    margin-left: 10%;
+
+}
+
+.front-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.top-story {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.top-story figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
+}
+figure img {
+    width: 100%;
+    height: auto;
+}
+.latest-img img {
+    width: 100%;
+    height: auto;
+}
+
+.top-headlines {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+.top-headlines article {
+    border-bottom: 2px solid lightgrey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.top-headlines article:last-child {
+    border: none;
+}
+
+.topic {
+    color: chartreuse;
+    font-size: small;
+}
+.byline {
+    color: grey;
+    font-size: small;
+}
+.date {
+    color: darkslategrey;
+    font-size: smaller;
+}
+
+.latest-headlines {
+    display: flex;
+    flex-direction: column;
+}
+.latest-headlines article {
+    border-bottom: 2px solid lightgrey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.latest-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.latest-blurb {
+    color: grey;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+.latest-article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-inline: 3rem;
+}
